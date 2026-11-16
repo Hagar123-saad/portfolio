@@ -1,0 +1,189 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+
+    background-color: #faf1e8;
+    margin: auto;
+    /* line-height: 1.5; */
+    max-width: 1200px;
+}
+
+
+
+
+header{
+    display: flex;   /* to make the element in one line */
+    justify-content: space-between;  /* to make the elemnt in to differnt sides from the page */
+    align-items:baseline;
+    border-bottom: 1px solid black;
+    padding: 1.2rem;
+} 
+
+nav a{
+    text-decoration: none; /* to make the element not underline */
+    color: black;
+    font-weight: 700;
+    padding-left: 1rem;
+
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+a.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 140%;
+    text-transform: uppercase;
+     font-family: "Playfair", serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: italic;
+        font-variation-settings:
+            "wdth" 100;
+   
+}
+
+
+/* Hero Section */
+
+.HeroSection{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 50px;
+
+}
+
+.HeroText{
+    width: 55%;
+    text-align: left;
+}
+
+.HeroText h1{
+font-family: "Playfair", serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: italic;
+        font-variation-settings:
+            "wdth" 100;
+        font-size: 110px;
+        line-height: 0.9;
+        margin: 0;
+}
+
+.HeroText p {
+
+    font-family: "Playfair", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: italic;
+        font-variation-settings:
+            "wdth" 100;
+        font-size: 38px;
+        
+        margin-top:5px ;
+        text-align: center;
+}
+
+
+.HeroSectionImage{
+    width: 35%;
+}
+.HeroSectionImage img{
+    width: 90%;
+    height: auto;
+}
+
+hr{
+ color: #173823;
+}
+
+/* Selected Work Section */
+
+
+
+.selectedWorkSection{
+    display: flex;   /* to make the element in one line */
+    justify-content: space-between;  /* to make the elemnt in to differnt sides from the page */
+    align-items:baseline;
+    padding: 1.2rem;
+
+}
+
+.selectedWorkSection h2{
+font-family: "Playfair", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        font-size: 30px;
+}
+
+.selectedWorkSection p{
+
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.selectedWorkSection p:hover{
+        text-decoration: underline;
+
+}
+
+
+/* Work Card */
+
+.WorkCard{
+    display: flex;
+    flex-wrap: wrap; /*to make the images wrap to the next line*/
+    justify-content: space-between;
+    row-gap: 50px; /*to make space between the rows ; I need to Ask the Profassor why the margin bottom did not work in this situation*/
+    margin: 30px;
+}
+
+.WorkItem{
+    width: 47%;
+}
+
+.WorkItem img{
+    height: auto;
+    width: 100%;
+}
+
+.WorkItem p{
+        font-family: "Playfair", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        font-size: 24px;
+        text-align: center;
+}
+
+.nameOfCategory:hover{
+         text-decoration: underline;
+
+}
+
+.HandDrawn{
+ align-items: center;
+ margin: auto;
+}
+
+
